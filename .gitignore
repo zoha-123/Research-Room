@@ -1,0 +1,4 @@
+# Keep local credentials and generated Python cache out of Git.
+outputs/.env
+outputs/__pycache__/
+*.pyc
