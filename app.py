@@ -1,10 +1,3 @@
-"""The Reading Room local server.
-
-Add your Mistral key to .env, then run from this folder:
-  python app.py
-
-Then open http://127.0.0.1:8000.
-"""
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 import json
